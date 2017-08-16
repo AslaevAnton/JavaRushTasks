@@ -5,8 +5,9 @@ package com.javarush.task.task03.task0304;
 */
 
 public class Solution {
-    public static void addTenPercent(int i) {
+    public static double addTenPercent(int i) {
         //напишите тут ваш код
+        return (i*1.1);
     }
 
     public static void main(String[] args) {
