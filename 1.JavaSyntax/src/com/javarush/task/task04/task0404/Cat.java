@@ -9,6 +9,7 @@ public class Cat {
 
     public static void addNewCat() {
         //напишите тут ваш код
+        catsCount++;
     }
 
     public static void main(String[] args) {
