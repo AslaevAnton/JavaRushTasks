@@ -8,5 +8,17 @@ public class Solution {
     public static void main(String[] args) {
 
     }
+    public Solution(){
+
+    }
+    protected Solution(int i){
+
+    }
+    private Solution(String S){
+
+    }
+    Solution(double d){
+
+    }
 }
 
