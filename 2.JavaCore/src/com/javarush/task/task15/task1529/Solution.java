@@ -15,11 +15,25 @@ public class Solution {
     
     static {
         //add your code here - добавьте код тут
+        try {
+            reset();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static Flyable result;
 
-    public static void reset() {
+    public static void reset() throws IOException {
         //add your code here - добавьте код тут
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String text=reader.readLine();
+        reader.close();
+
+        if(text.equals("helicopter"))
+            result=new Helicopter();
+        if(text.equals("plane"))
+            result=new Plane(0);
+
     }
 }
